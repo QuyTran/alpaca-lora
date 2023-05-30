@@ -101,6 +101,12 @@ or [alpaca.cpp](https://github.com/antimatter15/alpaca.cpp).
 
 ### Docker Setup & Inference
 
+0. Install nvidia container toolkit:
+
+```bash
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit-base
+```
+
 1. Build the container image:
 
 ```bash
