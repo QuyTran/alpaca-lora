@@ -134,6 +134,12 @@ docker run --gpus=all --shm-size 64g -p 7860:7860 -v ${HOME}/.cache:/root/.cache
 docker-compose up -d --build
 ```
 
+2b. Only run the container
+
+```bash
+docker-compose up -d
+```
+
 3. Open `https://localhost:7860` in the browser
 
 4. See logs:
